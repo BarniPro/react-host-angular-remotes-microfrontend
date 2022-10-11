@@ -9,10 +9,10 @@ Reproduction of a possbile webpack bug/issue, where remote chunks are loaded fro
 ## How to run
 
 ### React host
-```cd react-host && npm run start```
+```cd react-host && npm i && npm run start```
 
 ### Angular remote 1
-```cd angular-remote-1 && ng serve```
+```cd angular-remote-1 && npm i && ng serve```
 
 ### Angular remote 2
-```cd angular-remote-2 && ng serve```
+```cd angular-remote-2 && npm i && ng serve```
