@@ -1,5 +1,4 @@
-# Multiple Angular Microfrontends with React host 
-Reproduction of a possbile webpack bug/issue, where remote chunks are loaded from a wrong url.
+# Multiple Angular Microfrontends with React host
 
 ## How to reproduce
 1. [Run all three applications](#how-to-run)

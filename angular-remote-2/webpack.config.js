@@ -7,10 +7,11 @@ module.exports = {
         scriptType: "text/javascript"
     },
     optimization: {
-        runtimeChunk: false
+        runtimeChunk: false,
+        splitChunks: false,
     },
     experiments: {
-        outputModule: true,
+        topLevelAwait: true
     },
     plugins: [
         new ModuleFederationPlugin({
