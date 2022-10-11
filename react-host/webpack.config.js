@@ -43,7 +43,10 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "react_host",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        angular_remote_1: "angular_remote_1@http://localhost:4201/angular_remote_1.js",
+        angular_remote_2: "angular_remote_2@http://localhost:4202/angular_remote_2.js"
+      },
       exposes: {},
       shared: {
         ...deps,
